@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://fullhdpictures.com/wp-content/uploads/2016/03/Blur-Desktop.jpg");
+    background-size: 100%;
+    background-attachment: fixed
+}
+
+.paragraphs-left {
+    font-size: 20px;
+    /*text-align: left;*/
+    border: 1pt solid black;
+    padding: 5px;
+    margin-left: 3%
+}
+
+.container-row > *{
+
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.paragraphs-right {
+    font-size: 20px;
+    /*text-align: left;*/
+    border: 1pt solid black;
+    padding: 5px;
+    margin-right: 3%;
+}
+
+ h1 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
