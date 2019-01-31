@@ -1,12 +1,10 @@
-var vid = document.getElementById("vid");
-vid.style.position = "absolute";
+var button1 = document.getElementById("button1");
+button1.style.position = "absolute";
+button1.addEventListener("mousemove", function() {
+        activateYikes();
+});
 
 function activateYikes() {
-    vid.style.top = Math.random() * 500 + "px";
-    vid.style.left = Math.random() * 1000 + "px";
+        button1.style.top = Math.random() * 500 + "px";
+        button1.style.left = Math.random() * 500 + "px";
 }
-
-        vid.addEventListener("mousemove", function() {
-            activateYikes();
-        });
-

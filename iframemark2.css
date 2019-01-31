@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+p {
+    float: left;
+    margin: 11px;
+    color: blue;
+    text-decoration: underline;
+}
+
+input {
+    float: left;
+    margin: 9px;
+}
+
+iframe {
+    margin-left: -10px;
+}
